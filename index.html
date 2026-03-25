@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>My Wisdom Web</title>
+    <title>wisdomweb</title>
     <style>
-        body { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background-color: #f0f0f0; }
-        h1 { font-family: sans-serif; color: #333; }
-        video { max-width: 80%; border-radius: 10px; shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        body { background-color: white; display: flex; flex-direction: column; align-items: center; padding-top: 50px; font-family: sans-serif; }
+        video { width: 90%; max-width: 800px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        h1 { color: #333; margin-bottom: 20px; }
     </style>
 </head>
 <body>
-    <h1>내 멋진 동영상 페이지 🎬</h1>
-    
+
+    <h1>wisdomweb 프로젝트 영상 🎬</h1>
+
     <video controls autoplay muted loop>
         <source src="Cinematic_Motion_Video_Generation.mp4" type="video/mp4">
         브라우저가 동영상을 지원하지 않습니다.
     </video>
+
+    <p style="margin-top: 20px; color: #666;">업로드한 영상이 재생 중입니다.</p>
 
 </body>
 </html>
